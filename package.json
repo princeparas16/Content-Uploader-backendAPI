@@ -1,0 +1,29 @@
+{
+  "homepage": "http://princeparas16.github.io/Content-Uploader-backendAPI",
+  "name": "Content_Uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node js",
+    "upload",
+    "download",
+    "file",
+    "multipart",
+    "rest api",
+    "express"
+  ],
+  "author": "prince",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
