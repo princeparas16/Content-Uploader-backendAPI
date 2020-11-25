@@ -1,5 +1,13 @@
 # Content-Uploader-backendAPI
 
+### Features Implemented
+1. MVC Architecture Applied.
+2. Used Express.js a node.js web application framework.
+3. Path- middleware/upload.js: initializes Multer Storage engine and defines middleware function to save uploaded files in uploads folder.
+4. Path- resources/static/assets/uploads: folder for storing uploaded files.
+5. Path- routes/index.js: defines routes for endpoints that is called from HTTP Client, use controller to handle requests.
+6. Path- server.js: initializes routes, runs Express app.
+
 ## Contains RestAPIs which performs CRUD operations
 
 ### Install node modules
